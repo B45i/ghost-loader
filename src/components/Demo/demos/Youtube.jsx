@@ -24,7 +24,7 @@ const Youtube = () => {
 
             <div className="youtube">
                 <Ghost isLoading={isLoading} width="100%" height="197px">
-                    <img className="thumb" src={video.thumb} />
+                    <img className="thumb" src={video.thumb} alt="Thumnail" />
                 </Ghost>
                 <div className="video-info">
                     <Ghost
@@ -33,7 +33,11 @@ const Youtube = () => {
                         height="60px"
                         width="60px"
                     >
-                        <img className="logo" src={video.logo} />
+                        <img
+                            className="logo"
+                            src={video.logo}
+                            alt="Channel logo"
+                        />
                     </Ghost>
                     <div className="info-text">
                         <Ghost isLoading={isLoading} width="100%">

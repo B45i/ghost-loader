@@ -29,7 +29,7 @@ const UserDetails = () => {
                     height="5rem"
                     style={{ borderRadius: '1rem' }}
                 >
-                    <img src={user.img} className="user-card-img" />
+                    <img src={user.img} className="user-card-img" alt="User" />
                 </Ghost>
 
                 <div className="user-card-details">
