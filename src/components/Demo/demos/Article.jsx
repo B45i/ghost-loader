@@ -44,14 +44,15 @@ const Article = () => {
                 <h3 className="article-auther">
                     {isLoading ? <Ghost /> : item.auther}
                 </h3>
+
                 <h3 className="article-about">
                     {isLoading ? <Ghost /> : item.date}
                 </h3>
+
                 <span className="article-text">
                     {isLoading ? (
                         <>
-                            {' '}
-                            <Ghost count={4} /> <Ghost width="50%" />{' '}
+                            <Ghost count={4} /> <Ghost width="50%" />
                         </>
                     ) : (
                         item.text
