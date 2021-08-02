@@ -2,3 +2,21 @@ body {
     background-color: #2f3134;
     color: #fff;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* utils */
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #6181ec;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}

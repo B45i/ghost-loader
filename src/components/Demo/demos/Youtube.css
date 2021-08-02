@@ -1,0 +1,30 @@
+.youtube {
+    max-width: 350px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #3f3f41;
+}
+
+.thumb {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.info-text {
+    flex-grow: 1;
+    margin-left: 1rem;
+}
