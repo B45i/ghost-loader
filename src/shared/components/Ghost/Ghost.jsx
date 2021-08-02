@@ -1,19 +1,19 @@
+import PropTypes from 'prop-types';
 import './Ghost.css';
 
-// type of ghost
-// size: height / widh
-// custom class and style
-// add prop types
-//  font size
-//  paragraph count
-// is loading
-// ghost wrapper to sync animation ?
-
 const Ghost = props => {
-    const { loading, count, type, className, height, width, style, children } =
-        props;
+    const {
+        isLoading,
+        count,
+        type,
+        className,
+        height,
+        width,
+        style,
+        children,
+    } = props;
 
-    if (!loading) {
+    if (!isLoading) {
         return children;
     }
 
@@ -23,10 +23,29 @@ const Ghost = props => {
         ...style,
     };
 
-    // const elements = new Array(count || 10).fill(<span>Hello</span>); // use type props default
-    // return elements;
+    return Array.from({ length: count }, (_, index) => (
+        <span
+            className={`ghost ${type} ${className}`}
+            style={ghostStyles}
+            key={index}
+        ></span>
+    ));
+};
 
-    return <span className={`ghost `} style={ghostStyles}></span>;
+Ghost.propTypes = {
+    type: PropTypes.oneOf(['circle', 'rect']),
+    width: PropTypes.string,
+    height: PropTypes.string,
+    count: PropTypes.number,
+    isLoading: PropTypes.bool,
+    style: PropTypes.object,
+    className: PropTypes.string,
+};
+
+Ghost.defaultProps = {
+    type: 'rect',
+    count: 1,
+    isLoading: true,
 };
 
 export default Ghost;

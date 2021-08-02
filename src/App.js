@@ -5,10 +5,20 @@ import './App.css';
 function App() {
     return (
         <div>
-            {/* <Ghost loading={true} width="3rem" height="3rem" > */}
-            <Ghost loading={true} style={{ height: '3rem' }}>
-                Hello
-            </Ghost>
+            <Ghost
+                type="circle"
+                isLoading={true}
+                height="3rem"
+                width="3rem"
+            ></Ghost>
+
+            <Ghost
+                isLoading={true}
+                height="1rem"
+                width="100%"
+                count={4}
+            ></Ghost>
+            <Ghost isLoading={true} height="1rem" width="50%"></Ghost>
         </div>
     );
 }
