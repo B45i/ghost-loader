@@ -51,7 +51,7 @@ const Article = () => {
                     {isLoading ? (
                         <>
                             {' '}
-                            <Ghost count="4" /> <Ghost width="50%" />{' '}
+                            <Ghost count={4} /> <Ghost width="50%" />{' '}
                         </>
                     ) : (
                         item.text
