@@ -25,7 +25,7 @@ const Ghost = props => {
 
     return Array.from({ length: count }, (_, index) => (
         <span
-            className={`ghost ${type} ${className}`}
+            className={`ghost ${type} ${className || ''}`}
             style={ghostStyles}
             key={index}
         ></span>
@@ -46,6 +46,8 @@ Ghost.defaultProps = {
     type: 'rect',
     count: 1,
     isLoading: true,
+    width: '100%',
+    height: '1rem',
 };
 
 export default Ghost;
