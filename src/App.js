@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import Ghost from './shared/components/Ghost';
 
 import './App.css';
@@ -5,6 +6,7 @@ import './App.css';
 function App() {
     return (
         <div>
+            <Navbar />
             <Ghost
                 type="circle"
                 isLoading={true}
