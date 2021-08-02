@@ -1,4 +1,4 @@
-import Ghost from './shared/components/Ghost/Ghost';
+import Ghost from './shared/components/Ghost';
 
 import './App.css';
 

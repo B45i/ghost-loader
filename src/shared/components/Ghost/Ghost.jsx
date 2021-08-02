@@ -49,5 +49,3 @@ Ghost.defaultProps = {
 };
 
 export default Ghost;
-
-//  todo export from index.js
