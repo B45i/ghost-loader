@@ -14,7 +14,6 @@ const UserDetails = () => {
         img: 'https://robohash.org/amal%20shajan',
         name: 'Amal Shajan',
         description: 'JavaScript Developer',
-        isFollowed: Math.random() < 0.5,
     };
 
     return (
@@ -46,7 +45,7 @@ const UserDetails = () => {
                 </div>
 
                 <Ghost isLoading={isLoading} width="4rem" height="2rem">
-                    <button>{user.isFollowed ? 'Unfollow' : 'Follow'}</button>
+                    <button>Follow</button>
                 </Ghost>
             </div>
         </div>
