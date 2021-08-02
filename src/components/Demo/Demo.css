@@ -1,0 +1,10 @@
+.demos {
+    margin: 2rem;
+    /* background-color: #eee; */
+    border: 1px solid #3f3f41;
+    padding: 2rem;
+}
+
+.demo-tile {
+    font-size: 2rem;
+}
