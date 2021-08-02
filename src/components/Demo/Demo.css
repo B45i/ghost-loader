@@ -1,6 +1,5 @@
-.demos {
+.demo {
     margin: 2rem;
-    /* background-color: #eee; */
     border: 1px solid #3f3f41;
     padding: 2rem;
 }
@@ -11,7 +10,7 @@
 
 .demo-container {
     /* background-color: #fff; */
-    margin: 1rem 0;
     /* color: #000; */
+    margin: 1rem 0;
     padding: 1rem;
 }

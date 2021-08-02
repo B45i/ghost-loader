@@ -1,0 +1,27 @@
+.article {
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(4rem, auto) 1rem auto;
+    gap: 1rem;
+}
+
+.article-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 3rem;
+    margin: 0;
+}
+
+.article-auther {
+    grid-column: 1 / 2;
+}
+
+.article-about {
+    grid-column: 2 / -1;
+}
+
+.article-text {
+    padding-top: 3rem;
+    grid-column: 1 / -1;
+}
