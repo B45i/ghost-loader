@@ -11,8 +11,8 @@ const Youtube = () => {
     };
 
     const video = {
-        thumb: 'https://i.ytimg.com/an_webp/6E9cdgMvQT0/mqdefault_6s.webp?du=3000&sqp=CIWInogG&rs=AOn4CLAi_aBYB0pbZF7UhhA1HDavL5_aRw',
-        logo: 'https://yt3.ggpht.com/ytc/AKedOLR-pT_JEsz_hcaA4Gjx8DHcqJ8mS42aTRqcVy6P7w=s176-c-k-c0x00ffffff-no-rj-mo',
+        thumb: 'https://i.imgur.com/RRM5uEG.jpg',
+        logo: 'https://i.imgur.com/gSr0aB6.jpg',
         title: 'Nothing Ear(1) Review: See Through the Hype!',
         desc: '2.3M views - 3 days ago',
     };

@@ -19,6 +19,7 @@
 
 .article-about {
     grid-column: 2 / -1;
+    text-align: end;
 }
 
 .article-text {
