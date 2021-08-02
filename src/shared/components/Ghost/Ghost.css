@@ -1,0 +1,13 @@
+.ghost {
+    background-color: #bbb;
+    display: inline-block;
+
+    /* todo remove */
+    min-width: 10px;
+    min-height: 10px;
+    border: solid 1px red;
+}
+
+.circle {
+    border-radius: 50%;
+}
